@@ -1,0 +1,11 @@
+.userNum {
+  font-size: 25px;
+}
+
+.hidden {
+  display: none;
+}
+#won {
+  font-size: 20px;
+  font-weight: bold;
+}

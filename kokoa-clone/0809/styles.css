@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes circles {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(180deg);
+  }
+}
+@keyframes stic {
+  0% {
+    transform: scale(1, 2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+#circle {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: space-between;
+  align-items: center;
+  animation: circles 1s infinite;
+}
+.mini {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+#momStic {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stic {
+  height: 150px;
+  max-height: 300px;
+  width: 50px;
+  background-color: white;
+}
+#momStic > :nth-child(1) {
+  animation: stic 1s ease infinite;
+  animation-delay: 0.1s;
+}
+#momStic > :nth-child(2) {
+  animation: stic 1s ease infinite;
+  animation-delay: 0.2s;
+}
+#momStic > :nth-child(3) {
+  animation: stic 1s ease infinite;
+  animation-delay: 0.3s;
+}
+#momStic > :nth-child(4) {
+  animation: stic 1s ease infinite;
+  animation-delay: 0.4s;
+}
+#momStic > :nth-child(5) {
+  animation: stic 1s ease infinite;
+  animation-delay: 0.5s;
+}

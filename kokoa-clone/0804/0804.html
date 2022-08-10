@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>0804 kokoa-clone project</title>
+  </head>
+  <body id="body">
+    <h1>Create An account</h1>
+    <form>
+      <div>
+        <label for="firstName">First name</label>
+        <input required type="text" id="firstName" placeholder="First name" />
+      </div>
+      <div>
+        <label for="lastName">Last name</label>
+        <input required type="text" id="lastName" placeholder="Last name" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input required type="email" id="email" placeholder="Email" />
+      </div>
+      <div>
+        <label for="userName">User name</label>
+        <input required type="text" id="userName" placeholder="userName" />
+      </div>
+      <div>
+        <label for="passWord">Password</label>
+        <input
+          required
+          type="password"
+          id="passWord"
+          placeholder="Password"
+          minlength="10"
+        />
+      </div>
+      <div>
+        <label for="birthDate">Birth Date</label>
+        <input required type="date" id="birthDate" />
+      </div>
+      <div>
+        <label for="happy">how happy are you?</label>
+        <input required type="range" id="happy" list="tickmarks" />
+        <datalist id="tickmarks">
+          <option value="0"></option>
+          <option value="10"></option>
+          <option value="20"></option>
+          <option value="30"></option>
+          <option value="40"></option>
+          <option value="50"></option>
+          <option value="60"></option>
+          <option value="70"></option>
+          <option value="80"></option>
+          <option value="90"></option>
+          <option value="100"></option>
+        </datalist>
+      </div>
+      <div>
+        <label for="favColor">What is your fav. color?</label>
+        <input required type="color" id="favColor" />
+      </div>
+      <div>
+        <label for="account"></label>
+        <input required type="submit" id="account" value="Create Account" />
+      </div>
+    </form>
+  </body>
+</html>

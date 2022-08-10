@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Random Number Game</h1>
+    <form id="numInput">
+      <label class="comNum" for="comNum">Geneate a number bewteen 0 and</label>
+      <input id="comNum" type="number" min="1" />
+      <label for="userNum">Guess the number : </label>
+      <input id="userNum" required type="number" min="1" />
+      <input type="submit" value="play!" />
+    </form>
+    <p id="greeting" class="hidden"></p>
+    <span id="won"></span>
+    <script src="app.js"></script>
+  </body>
+</html>

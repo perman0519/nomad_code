@@ -1,0 +1,50 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: beige;
+}
+h1 {
+  font-size: 50px;
+  font-style: bold;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+body > div {
+  margin: 5px;
+  width: 230px;
+  height: 400px;
+  border: 8px solid white;
+}
+body > div:nth-child(2) {
+  background-color: tomato;
+}
+body > div:nth-child(3) {
+  background-color: teal;
+}
+body > div:nth-child(4) {
+  background-color: burlywood;
+}
+body > div:nth-child(5) {
+  background-color: thistle;
+}
+body div > span {
+  position: relative;
+  top: 50px;
+  width: 230px;
+  height: 50px;
+  background-color: white;
+  margin: 0px;
+  font-weight: bold;
+}
+
+body div > span:first-child {
+  font-size: larger;
+}
+
+body div > span:last-child {
+  font-size: medium;
+}
