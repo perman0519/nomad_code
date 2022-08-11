@@ -1,27 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "resat.css";
+@import "variables.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+/* screens */
+@import "screens/login.css";
 
 body {
   font-family: "Open Sans", sans-serif;
-}
-.status-bar {
-  display: flex;
-  justify-content: center;
-}
-.status-bar_column {
-  width: 33%;
-}
-.status-bar_column:first-child span {
-  margin-right: 5px;
-}
-.status-bar_column:nth-child(2) {
-  display: flex;
-  justify-content: center;
-}
-.status-bar_column:last-child {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-.status-bar_column .fa-battery-full {
-  margin: 0px 5px;
 }
