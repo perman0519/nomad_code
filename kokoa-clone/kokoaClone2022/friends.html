@@ -24,26 +24,84 @@
       </div>
     </div>
 
+    <header class="screen-header">
+      <h1 class="screen-header_title">Friends</h1>
+      <div class="screen-header_icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fa-solid fa-circle-info"></i>
+      Friends Names Display
+      <i class="fa-solid fa-angle-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user_component">
+        <div class="user_component_column">
+          <img
+            class="user_component_avatar user_component_avatar_xl"
+            src="http://t1.daumcdn.net/cfile/26575F4852BCDA7413"
+          />
+          <div class="user_component_text">
+            <h4 class="user_component_title">Junsang Song</h4>
+            <!-- <h6 class="user_component_subtitle">우와아아아아아앙</h6> -->
+          </div>
+        </div>
+        <div class="user_component_column"></div>
+      </div>
+      <div class="friends-screen_channel">
+        <div class="firends=screen_channel-header"></div>
+        <span>Channel</span>
+        <i class="fa-solid fa-angle-up fa-xs"></i>
+      </div>
+      <div class="user_component">
+        <div class="user_component_column">
+          <img
+            class="user_component_avatar user_component_avatar_sm"
+            src="http://t1.daumcdn.net/cfile/26575F4852BCDA7413"
+          />
+          <div class="user_component_text">
+            <h4 class="user_component_title">Channel</h4>
+            <!-- <h6 class="user_component_subtitle">우와아아아아아앙</h6> -->
+          </div>
+        </div>
+        <div class="user_component_column"></div>
+        <span>2</span>
+        <i class="fa-solid fa-angle-right fa-xs"></i>
+      </div>
+    </main>
+
     <nav class="nav">
       <ul class="nav_list">
         <li class="nav_btn">
           <a class="nav_link" href="friends.html"
-            ><i class="fa-solid fa-user"></i
+            ><i class="fa-solid fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav_btn">
-          <a class="nav_link" href="#"><i class="fa-regular fa-comment"></i></a>
+          <a class="nav_link" href="#">
+            <span class="nav_notify">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i>
+          </a>
         </li>
         <li class="nav_btn">
           <a class="nav_link" href="#"
-            ><i class="fa-solid fa-magnifying-glass"></i
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
           ></a>
         </li>
         <li class="nav_btn">
-          <a class="nav_link" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+          <a class="nav_link" href="#">
+            <div class="nav_notify" id="nav_notify"></div>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
         </li>
       </ul>
     </nav>
+
     <script
       src="https://kit.fontawesome.com/5e248979b6.js"
       crossorigin="anonymous"

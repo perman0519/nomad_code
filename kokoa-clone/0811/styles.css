@@ -2,6 +2,7 @@
 @import "resat.css";
 body {
   font-family: "Open Sans", sans-serif;
+  height: 1000vh;
 }
 header {
   background-color: tomato;
@@ -93,8 +94,8 @@ main {
 }
 .main_bottomtext_btn {
   display: flex;
-  width: 60%;
-  justify-content: space-between;
+  width: 30%;
+  justify-content: space-evenly;
   padding: 20px;
 }
 .main_bottomtext_btn_icon {
