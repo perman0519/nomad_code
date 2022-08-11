@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "resat.css";
+body {
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  background-color: tomato;
+}
+.topBtn {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 5px;
+  font-size: 30px;
+}
+.topBtn_column:first-child span {
+  margin-right: 5px;
+}
+.topBtn_column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.topBtn_column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0px 40px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px;
+}
+.search {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/*-----------------*/
+
+main {
+  margin-top: 30px;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  margin: 20px;
+}
+.main_text {
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 10px 0px;
+  width: 100%;
+}
+.main_bottomtext_context {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px;
+}
+.main_bottomtext_context_text {
+  display: flex;
+  flex-direction: column;
+}
+.main_bottomtext_context_text_name {
+  font-size: 30px;
+  margin: 10px 0px;
+}
+.main_bottomtext_context_text_actor {
+  font-size: 15px;
+  margin: 10px 0px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.main_bottomtext_review {
+  display: flex;
+  width: 100vh;
+  justify-content: left;
+  padding: 10px;
+}
+.main_bottomtext_review_1 {
+  margin: 0px 10px;
+  width: 90px;
+  height: 30px;
+  background-color: bisque;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+}
+.main_bottomtext_btn {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  padding: 20px;
+}
+.main_bottomtext_btn_icon {
+  width: 40px;
+  height: 40px;
+  background-color: tomato;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+}
+.main_bottomtext_btn_now {
+  width: 130px;
+  height: 40px;
+  background-color: black;
+  color: gray;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+}
+.boxoffice {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: visible;
+}
+.star {
+  color: gold;
+  padding: 10px 0px;
+}
+
+.boxoffice_list {
+  padding: 5px 15px;
+}
+
+.img {
+  border-radius: 10px;
+}
+
+.actorword {
+  display: flex;
+  margin: 5px 25px;
+  justify-content: space-between;
+}
+.actorword_text {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 5px;
+  padding: 20px;
+}
+.actorword_text_name {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.actorword_text_p {
+  color: rgba(0, 0, 0, 0.4);
+}
