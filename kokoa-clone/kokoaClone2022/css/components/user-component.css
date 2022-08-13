@@ -1,3 +1,7 @@
+.user_component {
+  justify-content: space-between;
+}
+
 .user_component,
 .user_component_column:first-child {
   display: flex;
@@ -21,4 +25,23 @@
 .user_component_avatar_xl {
   width: 80px;
   height: 80px;
+}
+.user_component_avatar_sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+.user_component_title--not-bold {
+  font-weight: 400;
+}
+
+.user_component_column:last-child {
+  color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.user-component_time {
+  display: block;
+  margin-bottom: 10px;
 }

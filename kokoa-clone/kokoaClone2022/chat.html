@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/ me - Screens Kokoa clone</title>
+  </head>
+
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar_column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar_column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar_column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt fa-lg"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header_column">
+        <a href="chats.html"> <i class="fa-solid fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header_column">
+        <h1 class="alt-header_title">Junsang Song</h1>
+      </div>
+      <div class="alt-header_column">
+        <span><i class="fa-solid fa-search fa-xl"></i></span>
+        <span><i class="fa-solid fa-bars fa-xl"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chats_timestamp">
+        <i class="far fa-calendar-days"></i>
+        Sunday, Aug 13, 2022
+      </div>
+
+      <div class="message-row">
+        <img src="http://t1.daumcdn.net/cfile/26575F4852BCDA7413" />
+        <div class="message-row_content">
+          <span class="message_author">Me</span>
+          <div class="message_info">
+            <span class="message_bubble">Hi!</span>
+            <span class="message_time">23:58</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row_content">
+          <div class="message_info">
+            <span class="message_time">23:58</span>
+            <span class="message_bubble">Hi!</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="http://t1.daumcdn.net/cfile/26575F4852BCDA7413" />
+        <div class="message-row_content">
+          <span class="message_author">Me</span>
+          <div class="message_info">
+            <span class="message_bubble">Watch my Movie!</span>
+            <span class="message_time">23:59</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply_column">
+        <i class="fa-regular fa-square-plus"></i>
+      </div>
+      <div class="reply_column">
+        <input type="text" placeholder="Write a Message..." />
+        <i class="fa-regular fa-face-smile-wink"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/5e248979b6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

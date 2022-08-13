@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Firends - Screens Kokoa clone</title>
+    <title>More - Screens Kokoa clone</title>
   </head>
 
   <body>
@@ -25,21 +25,18 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header_title">Friends</h1>
+      <h1 class="screen-header_title">More</h1>
       <div class="screen-header_icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a
+        ></span>
+        <div class="badge" id="badge-find"></div>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fa-solid fa-circle-info"></i>
-      Friends Names Display
-      <i class="fa-solid fa-angle-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
+    <main class="main-screen more-screen">
       <div class="user_component">
         <div class="user_component_column">
           <img
@@ -48,36 +45,47 @@
           />
           <div class="user_component_text">
             <h4 class="user_component_title">Junsang Song</h4>
-            <!-- <h6 class="user_component_subtitle">우와아아아아아앙</h6> -->
-          </div>
-        </div>
-        <div class="user_component_column"></div>
-      </div>
-
-      <div class="friends-screen_channel">
-        <div class="firends-screen_channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-angle-up fa-xs"></i>
-        </div>
-      </div>
-
-      <div class="user_component">
-        <div class="user_component_column">
-          <img
-            class="user_component_avatar user_component_avatar_sm"
-            src="http://t1.daumcdn.net/cfile/26575F4852BCDA7413"
-          />
-          <div class="user_component_text">
-            <h4 class="user_component_title user_component_title--not-bold">
-              Channel
-            </h4>
-            <!-- <h6 class="user_component_subtitle">우와아아아아아앙</h6> -->
+            <h6 class="user_component_subtitle">
+              +82 10-7296-5188 <i class="fa-solid fa-circle-exclamation"></i>
+            </h6>
           </div>
         </div>
         <div class="user_component_column">
-          <div>
-            <span>2</span>
-            <i class="fa-solid fa-angle-right fa-xs"></i>
+          <i class="fa-regular fa-message fa-2x"></i>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row_icon">
+          <i class="fa-regular fa-calendar"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="icon-row_icon">
+          <i class="fa-regular fa-face-smile-beam"></i>
+          <span>Emotions</span>
+        </div>
+        <div class="icon-row_icon">
+          <i class="fa-solid fa-brush"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row_icon">
+          <i class="fa-solid fa-file-invoice-dollar"></i>
+          <span>Account</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions_title">Suggestions</h4>
+        <div class="more-suggestions_icons">
+          <div class="more-suggestions_icon">
+            <div class="more-suggestions_icon-img">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <span class="more-suggestions_icon-text">Kakao Story</span>
+          </div>
+          <div class="more-suggestions_icon">
+            <div class="more-suggestions_icon-img">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <span class="more-suggestions_icon-text">Kakao Story</span>
           </div>
         </div>
       </div>
@@ -87,13 +95,13 @@
       <ul class="nav_list">
         <li class="nav_btn">
           <a class="nav_link" href="friends.html"
-            ><i class="fa-solid fa-user fa-2x"></i
+            ><i class="far fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav_btn">
           <a class="nav_link" href="chats.html">
             <span class="nav_notify">1</span>
-            <i class="fa-regular fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav_btn">
@@ -109,9 +117,7 @@
         </li>
       </ul>
     </nav>
-    <div id="splash-screen">
-      <i class="fa-solid fa-comment fa-2x"></i>
-    </div>
+
     <script
       src="https://kit.fontawesome.com/5e248979b6.js"
       crossorigin="anonymous"
