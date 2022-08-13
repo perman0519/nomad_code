@@ -1,0 +1,39 @@
+.play-button {
+  position: relative;
+  bottom: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 360px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: #672c3b;
+  box-shadow: 0 5px 5px rgba(103, 44, 59, 0.3), 0 5px 5px rgba(103, 44, 59, 0.3);
+  margin-left: 20px;
+}
+.play-button-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.play-button_title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.play-button_subtitle {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 10px 0px;
+  margin-left: 10px;
+}
+.play-button_icon {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.play-button_icon i:nth-child(2) {
+  margin: 20px;
+}

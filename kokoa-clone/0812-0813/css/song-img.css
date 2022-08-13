@@ -1,0 +1,20 @@
+.song-img {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+}
+.song-img_left {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3), 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.song-img_right {
+  margin: 30px 0px;
+  width: 250px;
+  height: 250px;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(209, 121, 121, 0.3),
+    0 5px 15px rgba(209, 121, 121, 0.3);
+}

@@ -1,0 +1,61 @@
+.song_list {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+}
+.song-list_box {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 70px;
+  margin: 10px 20px;
+  padding: 5px;
+}
+#song_3 {
+  border-radius: 20px;
+  box-shadow: 0 5px 11px rgba(103, 44, 59, 0.3),
+    0 5px 5px rgba(103, 44, 59, 0.3);
+}
+.song-list_img {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.song-list_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  margin: 20px;
+}
+.song-list_title {
+  font-size: 15px;
+  font-weight: bold;
+}
+.song-list_subtitle {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 10px;
+}
+
+.song-list_box:nth-child(1) div:last-child {
+  display: flex;
+  width: 200px;
+  justify-content: end;
+}
+.song-list_box:nth-child(2) div:last-child {
+  display: flex;
+  width: 230px;
+  justify-content: end;
+}
+.song-list_box:nth-child(3) div:last-child {
+  display: flex;
+  width: 160px;
+  justify-content: end;
+}
+.song-list_box:nth-child(4) div:last-child {
+  display: flex;
+  width: 160px;
+  justify-content: end;
+}

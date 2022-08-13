@@ -1,0 +1,15 @@
+.play_button-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 40px;
+}
+
+.play_button-right i:nth-child(3) {
+  border-radius: 50%;
+  box-shadow: 0 3px 5px rgba(255, 255, 255, 0.3);
+}
+.play_button-right i:first-child,
+.play_button-right i:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}

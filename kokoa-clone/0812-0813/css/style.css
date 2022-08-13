@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+@import "resat.css";
+@import "screen-main.css";
+@import "status-bar.css";
+@import "song-img.css";
+@import "singer-text.css";
+@import "shuffle-like.css";
+@import "song-list.css";
+@import "play-button.css";
+@import "loading.css";
+@import "play_button-right.css";
+
+body {
+  display: flex;
+  justify-content: space-evenly;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  font-family: "Open Sans", sans-serif;
+}

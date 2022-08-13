@@ -1,0 +1,15 @@
+.shuffle-like {
+  margin: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.shuffle-like div {
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #672c3b;
+  text-align: center;
+  line-height: 40px;
+  box-shadow: 0 3px 5px rgba(103, 44, 59, 0.3);
+}
